@@ -1,0 +1,15 @@
+# Comentários começam com #
+
+# Esse padrão ignora uma pasta inteira, nesse caso a pasta node_modules
+node_modules/
+
+#  Esse padrão ignora todos os arquivos com uma extensão, no caso arquivos .log
+*.log
+
+#  Esse padrão ignora um arquivo específico, nesse caso o arquivo .env
+.env
+
+# Arquivos de sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
